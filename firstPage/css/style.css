@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.05%;
+}
+body{
+    font-family: "Varela Round", sans-serif;
+    /* background-color: rgba(255, 255, 255, 0.397); */
+    background-color: green;
+    margin: 0 2rem;
+}
+.formBody{
+    width: 100vh;
+    max-width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+.formBodyContent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form{
+    background:linear-gradient(to right bottom,rgba(0, 183, 255, 0.5),rgba(49, 49, 255,.5)),url(/firstPage/Assets/walkie.jpeg);
+    background-image: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 25%;
+    height: 70%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: start;
+    padding: 8rem 3rem ;
+    box-shadow: 2px 2px 8px grey;
+}
+.image-overlay::before{
+    content: "";
+}
+.icon{
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    font-size: 2rem;
+    color: rgb(224, 224, 224);
+    cursor: pointer;
+}
+.heading{
+    color: white;
+    margin-bottom: 3rem;
+    width: 100%;
+    display: inline-block;
+    font-size: .7rem;
+    text-align: start;
+}
+
+.form-item{
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 0.7rem;
+    border-bottom: 1px solid rgba(231, 231, 231, 0.5);
+
+}
+.inputs:hover{
+    border-bottom: 2px solid #fff;
+    transition: .8s ease;
+
+}
+#email,#email::placeholder{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.5;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+#password,#password::placeholder{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.5;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+#password2,#password2::placeholder{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.5;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+/* input,input::placeholder{
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+} */
+.btn{
+    color: blue;
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background: white;
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.sign-in{
+    color: rgba(255, 255, 255, 0.5);
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    text-decoration: none;
+}

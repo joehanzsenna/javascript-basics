@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: linear-gradient(to right bottom, orange, red, darkorange); */
+    background-color: green;
+    height: 100vh;
+    /* background-color: grey; */
+}
+
+.thirdPage{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.thirdPageLinks{
+    width: 50%;
+    margin: 0 auto;
+}
